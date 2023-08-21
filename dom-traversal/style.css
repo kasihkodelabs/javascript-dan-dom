@@ -1,0 +1,22 @@
+.row {
+  display: flex;
+}
+
+#list {
+  width: 320px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.highlighted {
+  color: white;
+  background: black ;
+}
+
+.img {
+  height: 500px;
+  max-width: 500px;
+}

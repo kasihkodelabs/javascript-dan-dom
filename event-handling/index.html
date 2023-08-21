@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Event handling</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+  <h1>Event handling</h1>
+
+  <div class="container">
+    <div class="hidden">
+      <span>click, doubleclick, mouseup, mousedown </span>
+      <div id="box1" class="box">
+      </div>
+    </div>
+
+    <div>
+      <span>mouseenter, mouseover, mouseout </span>
+      <div id="box2" class="box">
+      </div>
+    </div>
+
+
+    <div class="hidden">
+      <span>contexmenu, wheel</span>
+      <div id="box3" class="box">
+      </div>
+    </div>
+
+    <div class="hidden">
+      <span>dragstart, drag, dragend</span>
+      <div draggable="true" id="box4" class="box">
+      </div>
+    </div>
+
+  </div>
+
+  <form class="hidden">
+    <label for="name">Nama:</label>
+    <br />
+    <input type="text" id="name" />
+    <br />
+    <br />
+
+    <label for="email">Email:</label>
+    <br />
+    <input type="email" id="email" />
+    <br />
+    <br />
+
+    <label for="password">Password:</label>
+    <br />
+    <input type="password" id="password" />
+    <br />
+    <br />
+
+    <label for="password2">Konfirmasi Password:</label>
+    <br />
+    <input type="password" id="password2" />
+    <br />
+    <br />
+
+    <p> Jenis kelamin </p>
+    <input type="radio" name="gender" id="male" /> <label for="male">Laki-laki</label> <br />
+    <input type="radio" name="gender" id="female" /> <label for="female">Perempuan</label>
+    <br />
+    <br />
+
+    <input type="reset" value="Setel ulang" />
+    <input type="submit" value="Daftar" />
+  </form>
+
+  <script src="./script.js"> </script>
+</body>
+
+</html>
